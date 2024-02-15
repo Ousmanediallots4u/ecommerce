@@ -26,13 +26,21 @@
     border-radius: 60%;
     transition: all ease-in-out 0.5s;
 }
-@media (max-width: 780px) {
+/* @media (max-width: 780px) {
     .first-row, .second-row {
       display: grid;
       grid-template-columns: 1fr;
+      margin-right: 0;
+     
     }
 
     .first-row .col-6 , .second-row  .col{
       width: 100%;
+    }
+  } */
+
+  @media (max-width: 767px) { /* Targeting devices with max-width of 767px (mobile devices) */
+    .first-row .col-md-6 {
+      width: 100%; /* Set column width to 100% on mobile devices */
     }
   }
