@@ -1,0 +1,38 @@
+.navbar {
+    background-color: #86b7b8;
+   
+}
+
+.navbar a, .nav-item li {
+    color: #353d48!important;
+}
+
+.col .first-image {
+    width: 70%;
+    height: 100%;
+    margin: 20px 0 !important;
+}
+
+.first-row {
+    margin-right: 40px;
+}
+.first-row img {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.first-row img:hover{
+    border-radius: 60%;
+    transition: all ease-in-out 0.5s;
+}
+@media (max-width: 780px) {
+    .first-row, .second-row {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .first-row .col-6 , .second-row  .col{
+      width: 100%;
+    }
+  }
